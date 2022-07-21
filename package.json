@@ -1,0 +1,32 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --mode serve",
+    "build": "vite build --mode build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "@iconify/json": "^2.1.79",
+    "element-plus": "^2.1.10",
+    "unplugin-icons": "^0.14.7",
+    "unplugin-vue-define-options": "^0.6.2",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.0",
+    "autoprefixer": "^10.4.4",
+    "less": "^4.1.2",
+    "node-sass": "^7.0.1",
+    "postcss-preset-env": "^7.4.3",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
+    "unplugin-auto-import": "^0.7.1",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.0",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
