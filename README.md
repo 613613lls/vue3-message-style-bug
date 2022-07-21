@@ -1,7 +1,6 @@
-# Vue 3 + Vite
+element-plus ElMeaasge  引入导致覆盖样式问题
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+vite中使用自动导入组件，并自定义主题颜色
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+  在public/login/index 中使用了个别element 组件 ，只要出现ElMeaasge字符，样式就会还原为官方定义的主题颜色
+  
